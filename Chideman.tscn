@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://TileMap.tscn" type="PackedScene" id=1]
+[ext_resource path="res://1d8a2bb5-5e9d-47fb-81b4-117d2d0a2780.jpg" type="Texture" id=2]
+[ext_resource path="res://Tileset_Aghazin.tres" type="TileSet" id=3]
+
+[node name="Node2D" instance=ExtResource( 1 )]
+
+[node name="1d8a2bb5-5e9d-47fb-81b4-117d2d0a2780" type="Sprite" parent="." index="0"]
+visible = false
+position = Vector2( 552, 408 )
+scale = Vector2( 1.05641, 1.05641 )
+texture = ExtResource( 2 )
+
+[node name="TileMap" parent="." index="1"]
+tile_data = PoolIntArray( -65531, 1073741827, 589826, -65530, 1073741827, 589826, -65529, -1610612733, 589825, -65527, -2147483645, 589825, -65526, 1610612739, 589826, -65525, 1610612739, 589826, -65524, -536870909, 589825, 4, 1610612739, 589826, 5, 1610612739, 589825, 8, 1073741827, 589825, 9, 1073741827, 589826, 10, -1610612733, 589825, 11, -536870909, 262146, 12, 3, 0, 13, -536870909, 2, 65541, 1610612739, 262146, 65544, -2147483645, 262146, 65545, 536870915, 2, 65546, 536870915, 0, 65547, -536870909, 262146, 65548, 3, 65536, 65549, 3, 65538, 131080, 3, 262146, 131081, 536870915, 131074, 131082, 536870915, 131072, 131083, -536870909, 262146, 131084, 3, 65536, 131085, 3, 65538, 131090, 2, 5, 196622, 2, 65540, 262157, 2, 0, 262158, 2, 0, 524305, 2, 0, 524306, 2, 0, 524307, 2, 0, 524308, 2, 0, 655376, 2, 0, 720912, 2, 262144 )
+
+[node name="TileMap2" type="TileMap" parent="." index="2"]
+tile_set = ExtResource( 3 )
+format = 1
+tile_data = PoolIntArray( 3, 1610612739, 196610 )
